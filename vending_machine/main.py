@@ -12,7 +12,7 @@ print("いらっしゃいませ! マリーナカフェへようこそ!")
 while is_on:
     options = menu.get_items()
     choice = input(f"どのメニューにしますか？ ({options}): \n")
-    if choice == "off":
+    if choice == "enough":
         print("ありがとうございました!")
         is_on = False
     elif choice == "report":
